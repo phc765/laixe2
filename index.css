@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+/* Custom scrollbar for a cleaner look - Webkit browsers */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e0; /* Tailwind gray-400 */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a0aec0; /* Tailwind gray-500 */
+}
+
+/* Ensure icons are vertically aligned with text */
+.icon-text-align {
+    vertical-align: middle;
+}
